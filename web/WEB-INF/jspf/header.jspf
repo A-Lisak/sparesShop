@@ -1,0 +1,49 @@
+<%-- 
+    Document   : index
+    Created on : Aug 3, 2015, 9:29:44 PM
+    Author     : Zaic
+--%>
+
+
+<%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <div class="main_wrap clearfix">
+            <div class="header_wrap">
+                <div class="header clearfix">
+                    <a href="index.jsp" class="logo"></a>
+                    <ul class="header_nav clearfix">
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="aboutUs">About us</a></li>
+                        <li><a href="category">Categories</a></li>
+                        <li><a href="viewCart">Cart</a></li>
+                        <li><a href="checkout">Checkout</a></li> 
+                        <li><a href="contactUs">Contact us</a></li>
+                    </ul><!-- header_nav -->
+                    <ul class="log-block">           
+                        <li>
+                        <svg height="35" width="148">
+                            <polygon points="1,18 10,1 138,1 148,18 138,35 10,35" style="fill:#1c3344;stroke:#fff;stroke-width:1" />
+                        </svg>
+                        <a href="admin/index.jsp" class="popup_link">admin login</a></li>
+                    </ul><!-- log-block -->
+                </div><!--header-->
+            </div><!--header_wrap-->
+
+
+
+
